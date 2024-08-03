@@ -6,7 +6,7 @@ react-workspace-simulator is reasonably customizable library for simulating work
 
 For now on npm
 
-```javascript
+```jsx
 npm install react-workspace-simulator
 ```
 
@@ -19,7 +19,7 @@ First you got to import the component called `<WorkspaceSimulator/>` the compone
 The `<WorkspaceSimulator/>` component accepts a prop called `custom_styles=` which requires a object that should contains all over to Write styles.
 Format:
 
-```javascript
+```js
 {
     waybar_container:{}
     waybar_application_text:{},
@@ -62,7 +62,7 @@ Format:
 
 6. `createAppInCurrentDesktop`: Will Create a new Application in the current workspace, takes an object as argument.
 
-```javascript
+```js
 {
     component, // pass component to-be rendered as application
     application_name, // app name to display
