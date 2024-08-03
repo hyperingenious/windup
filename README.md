@@ -39,9 +39,13 @@ Format:
 ### state
 
 1. `activeWorkspaceIndex`: It will return 3 if the third workspace is active among all.
+ 
 2. `showWaybar`: Returns waybar's state, default's `true`.
+ 
 3. `workspaceWallpaper`: Returns the link to the wallpaper.
+ 
 4. `workspaces`: Returns entire data for current workspaces.
+ 
 5. `workspaceMovement`: Default is set to `X` horizontal.
 
 ### methods
